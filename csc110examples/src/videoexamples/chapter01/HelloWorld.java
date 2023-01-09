@@ -1,4 +1,4 @@
-package videoexamples;
+package videoexamples.chapter01;
 
 public class HelloWorld {
 
