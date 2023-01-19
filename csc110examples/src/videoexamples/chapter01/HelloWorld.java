@@ -1,16 +1,11 @@
-package 
-videoexamples.chapter01;
+package videoexamples.chapter01;
 
-public 			class 
-HelloWorld 				{ public static 
-	void 			main(String
-			[] 
-			
-			
-			args) { 
-		System.out.println
+public class HelloWorld {
 
-("Hello, world!"
-		) ; }
+	public static void main(String[] args) {
+
+		System.out.println("Hello, world!");
+
+	}
 
 }
