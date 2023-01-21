@@ -25,6 +25,7 @@ We can combine strings in Java using the string concatenation operator `+`
 This program goes over declaring & initializing the 8 different primitive types available in Java.
 
 [Video 1 - Declaring Primitive Variables in Java](https://youtu.be/q-z4RUQs5DA) (4:28)
+[Video 2 - Initializing Primitive Variables in Java](https://youtu.be/fWTEuVZ7mk0) (4:02)
 
 ### Constants.java
 
