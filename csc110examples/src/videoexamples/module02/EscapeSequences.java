@@ -1,4 +1,4 @@
-package videoexamples.chapter02;
+package videoexamples.module02;
 
 public class EscapeSequences {
 
