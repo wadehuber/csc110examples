@@ -1,4 +1,4 @@
-package videoexamples.chapter01;
+package videoexamples.module01;
 
 public class EmptyClass {
 
