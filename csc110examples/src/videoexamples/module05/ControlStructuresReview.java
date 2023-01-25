@@ -1,4 +1,4 @@
-package videoexamples.module03;
+package videoexamples.module05;
 
 import java.util.Scanner;
 
