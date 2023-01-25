@@ -1,23 +1,8 @@
-# Module 3 - Control Structures
+# Module 3 - Conditional Structures - if & if-else
 
-This module will cover some ways to control the flow of your code, including loops & conditional statements
+In this module (and the next 2) we will cover flow control - how to change what code gets executed as it is running.
 
-## Conditional Statements
 
-### IfElse.java
+## IfElse.java
 
 This program goes over the `if` and `if-else` structures
-
-## Conditional Statements
-
-### Loops
-
-### ForLoop.java
-
-Examples of what you can do with for loops
-
-## Review
-
-### ControlStructuresReview.java
-
-[Video](https://youtu.be/yYTubUpYYaU) (10:25) This video reviews the various control structures available in Java

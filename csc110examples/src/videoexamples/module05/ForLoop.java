@@ -1,4 +1,4 @@
-package videoexamples.module03;
+package videoexamples.module05;
 
 public class ForLoop {
 	public static void main(String[] args) {
