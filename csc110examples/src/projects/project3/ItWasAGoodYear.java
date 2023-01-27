@@ -8,6 +8,8 @@ public class ItWasAGoodYear {
 		Scanner scnr = new Scanner(System.in);
 
 		System.out.println("What year would you like to check?");
+	
 		
+		scnr.close();
 	}
 }
