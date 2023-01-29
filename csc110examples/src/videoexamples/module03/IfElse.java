@@ -1,24 +1,28 @@
 package videoexamples.module03;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class IfElse {
 
 	private static final int MAX_VALUE = 20;
 
 	public static void main(String[] args) {
-		Random randNum = new Random();
-		int guess;
-		int count = 0;
+		Scanner scnr = new Scanner(System.in);
+		Random rand = new Random();
 
-		for (int ii=0;ii<1000;ii++) {
-		    guess = randNum.nextInt(MAX_VALUE) + 1;
-			if (guess == 10) {
-				count ++;
-			}
+		int secret = rand.nextInt(10) + 1;  // Random number 1-10
+		
+		System.out.println("Pick a number between 1 & 10: ");
+		int guess = scnr.nextInt();
+
+		if (secret == guess) {
+			System.out.println("You guessed the right number!");
 		}
-		System.out.println("The number 10 was guessed " + count + " times");
-
+		else {
+			System.out.println("Sorry, the correct number was " + secret + ".");
+		}
+		scnr.close();
 	}
 
 }
