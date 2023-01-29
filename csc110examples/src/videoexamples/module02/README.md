@@ -33,6 +33,10 @@ Constants can be declared with `final` and are not allowed to be changed
 
 ## Helpful Classes
 
+### ScannerInput.java 
+
+[Video](https://youtu.be/TwDUcFFfY70) (5:08) Using the scanner class to read integers & strings from the user.  Also a brief introduction to finding & fixing errors & warnings in Eclipse and how to use nextLine() to clear the user input buffer.
+
 ### MathAndRandom.java 
 
  Examples of methods in the java.lang.Math & java.util.Random classes (**Note**: The purpose of this example is to demonstrate what is available - you don't necessarily need to understand all the math.)
