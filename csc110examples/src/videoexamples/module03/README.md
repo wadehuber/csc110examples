@@ -9,7 +9,7 @@ In this module (and the next 2) we will cover flow control - how to change what 
 
 ## MultConditions.java
 
-Example of a program that handles a situation with multiple conditions using an if-else structure
+[VIDEO](https://youtu.be/BNb5rdziJIc) (4:51) Example of a program that handles a situation with multiple conditions using an if-else structure
 
 ## ComparingStrings.java
 

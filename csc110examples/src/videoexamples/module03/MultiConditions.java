@@ -7,20 +7,21 @@ public class MultiConditions {
 	public static void main(String[] args) {
 		
 		Scanner scnr = new Scanner(System.in);
+		System.out.println("Enter your cholesterol level:" );
 		int cholesterolLevel = scnr.nextInt();
-		String level = "";
+		String result;
 		
-		if (cholesterolLevel < 200) {
-			level = "normal";
+		if (cholesterolLevel > 240) {
+			result = "unhealthy";
 		}
-		else if (cholesterolLevel < 240) {
-			level = "borderline";
+		else if (cholesterolLevel >= 200) {
+			result = "at-risk";
 		}
 		else {
-			level = "high";
+			result = "healthy";
 		}
-
-		System.out.println("Your cholesterol level is " + level);
+		
+		System.out.println("Your cholesterol level is " + result);
 	
 		scnr.close();
 	}
