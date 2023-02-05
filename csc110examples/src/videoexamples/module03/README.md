@@ -11,6 +11,10 @@ In this module (and the next 2) we will cover flow control - how to change what 
 
 [VIDEO](https://youtu.be/BNb5rdziJIc) (4:51) Example of a program that handles a situation with multiple conditions using an if-else structure
 
+## CommonMistakes.java
+
+[VIDEO](https://youtu.be/WJvjX3H_4gI) (3:03) Some common mistakes new programmers make and how to correct them
+
 ## ComparingStrings.java
 
 [VIDEO](https://youtu.be/5d4bEaHmEII) (3:40) walks through how to compare two Java String objects using the equals method
