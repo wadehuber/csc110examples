@@ -1,30 +1,29 @@
 package videoexamples.module05;
 
+import java.util.Scanner;
+
 public class ForLoop {
 	public static void main(String[] args) {
-		
-		// Loop from 1 to 10
-		System.out.print("Loop 1-10s: ");
-		for(int ii=1;ii<=10;ii++) {
-			System.out.print(ii + " ");
-		}
-		System.out.println();
 	
-		// Loop from 0 to 30 by 2's
-		//  Note that the <30 condition means 30 will be excluded
-		System.out.print("Loop 0-30 by 2's: ");
-		for(int ii=0;ii<30;ii+=2) {
-			System.out.print(ii + " ");
-		}
-		System.out.println();
+		Scanner scnr = new Scanner(System.in);
+		int num1, num2, num3, num4, num5;
+		int total;
 		
-		// Loop 20 down to 11 
-		System.out.print("Loop 20 down to 11: ");
-		for(int ii=20;ii>10;ii--) {
-			System.out.print(ii + " ");
-		}
-		System.out.println();
+		System.out.print("Enter number 1: ");
+		num1 = scnr.nextInt();
+		System.out.print("Enter number 2: ");
+		num2 = scnr.nextInt();
+		System.out.print("Enter number 3: ");
+		num3 = scnr.nextInt();
+		System.out.print("Enter number 4: ");
+		num4 = scnr.nextInt();
+		System.out.print("Enter number 5: ");
+		num5 = scnr.nextInt();
+	
+		total = num1 + num2 + num3 + num4 + num5;
+		System.out.println("The total is " + total);
 		
+		scnr.close();
 		
 	}
 
