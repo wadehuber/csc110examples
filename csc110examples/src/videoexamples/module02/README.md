@@ -27,6 +27,10 @@ This program goes over declaring & initializing the 8 different primitive types 
 [Video 1 - Declaring Primitive Variables in Java](https://youtu.be/q-z4RUQs5DA) (4:28)
 [Video 2 - Initializing Primitive Variables in Java](https://youtu.be/fWTEuVZ7mk0) (4:02)
 
+### CharsAndNums.java
+
+[Video](https://youtu.be/ZKiBoStkIww) (5:19) This program goes over how char and int variables are related
+
 ### Constants.java
 
 Constants can be declared with `final` and are not allowed to be changed
