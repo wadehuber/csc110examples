@@ -1,5 +1,9 @@
 # Module 7 - Arrays
 
+## WhyArrays.java
+
+[Video](https://youtu.be/J_6PLIZuPJ0) (5:52): Introduction to arrays in Java
+
 ## Arrays.java
 
-Arrays.java [Video](https://youtu.be/qi6xqrdjEGA) (7:18): Examples using Java arrays
+[Video](https://youtu.be/qi6xqrdjEGA) (7:18): Examples using Java arrays
