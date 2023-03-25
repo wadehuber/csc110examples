@@ -2,6 +2,8 @@
 
 The focus on this module is primarily introducing *what programs are* more than actually writing programs. But, it wouldn't be fun to completely skip code in this module, so we will introduce some relatively simple programs.
 
+I strongly recommend you clone this GitHub repository and regularly update it.  [This video](https://youtu.be/1inyTtkqRbw) (3:29) walks through doing that specifically for this course.  
+
 ## Introduction Videos
 
 [The Parts of a Java Program](https://youtu.be/R_CA3St31ng) (1:56) goes over the boilerplate code that you'll see in almost every Java program.  Note that right now you are not expected to understand it all, but as you become more familiar with Java you will learn more about these features.
