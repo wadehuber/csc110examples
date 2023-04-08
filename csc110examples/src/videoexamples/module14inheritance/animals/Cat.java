@@ -1,4 +1,4 @@
-package videoexamples.module14.inheritance.animals;
+package videoexamples.module14inheritance.animals;
 
 public class Cat extends Animal {
 

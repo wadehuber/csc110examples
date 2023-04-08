@@ -1,6 +1,6 @@
-package videoexamples.module14.inheritance;
+package videoexamples.module14inheritance;
 
-import videoexamples.module14.inheritance.animals.*;
+import videoexamples.module14inheritance.animals.*;
 
 public class  MyAnimals{
 

@@ -1,4 +1,4 @@
-package videoexamples.module14.inheritance.overloadvsride;
+package videoexamples.module14inheritance.overloadvsride;
 
 public class OverLoadRideExample {
 	

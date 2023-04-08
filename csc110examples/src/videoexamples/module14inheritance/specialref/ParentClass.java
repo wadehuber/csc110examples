@@ -1,4 +1,4 @@
-package videoexamples.module14.inheritance.specialref;
+package videoexamples.module14inheritance.specialref;
 
 public class ParentClass {
 	
