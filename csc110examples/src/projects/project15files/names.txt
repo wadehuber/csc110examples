@@ -1,0 +1,11 @@
+Easley,Annie,worked at NASA on the software team for the Centaur rocket
+Gosling,James,is often called the inventor of Java
+Dijkstra,Edsger,was the supreme algorithmist - he researched and developed how to solve problems fast
+Kay,Allan,developed the first OO programming language called Smalltalk
+Goldwasser,Shari,won the Turing Award for her work in cryptography
+Turing,Alan,is often considered the father of modern computer science
+Backus,John,developed the Fortran language with his team at IBM
+Knuth,Donald,wrote the ultimate Computer Science comprehensive text called The Art of Computer Programming
+McCarthy,John,is famous for his contributions to and coined the term Artificial Intelligence
+Hopper,Grace,was a Navy Admiral who invented the first compiler
+von Neumann,John,developed the von Neumann architecture used in virtually every non-parallel processing computer
