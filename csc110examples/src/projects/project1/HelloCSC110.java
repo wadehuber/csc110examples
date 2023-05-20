@@ -1,3 +1,5 @@
+// Hello, world example
+
 package projects.project1;
 
 public class HelloCSC110 {
