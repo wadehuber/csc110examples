@@ -7,3 +7,7 @@
 ## Arrays.java
 
 [Video](https://youtu.be/qi6xqrdjEGA) (7:18): Examples using Java arrays
+
+## NumberFormatting.java
+
+[Video](https://youtu.be/zaTXwXJW328) (3:34): Examples using `NumberFormat` objects to format percents & money
