@@ -1,4 +1,4 @@
-package videoexamples.module13classes;
+package videoexamples.module13classes.thisreference;
 
 public class ThisReference {
 	
