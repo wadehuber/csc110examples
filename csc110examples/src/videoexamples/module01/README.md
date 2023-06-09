@@ -17,6 +17,11 @@ This program is the *simplest* Java program you can have - it is a valid program
 
 [VIDEO](https://youtu.be/T5WdWfnWbW4) (2:12) goes over how to write a simple Java program to print a message to the console
 
-### ScannerInput.java 
+## ScannerInput.java 
 
 [Video](https://youtu.be/TwDUcFFfY70) (5:08) Using the scanner class to read integers & strings from the user.  Also a brief introduction to finding & fixing errors & warnings in Eclipse and how to use nextLine() to clear the user input buffer.
+
+## PrintPrintln.java
+
+This program goes over the differences between `System.out.print` and `System.out.println`
+
