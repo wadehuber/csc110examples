@@ -19,9 +19,9 @@ This program is the *simplest* Java program you can have - it is a valid program
 
 ## ScannerInput.java 
 
-[Video](https://youtu.be/TwDUcFFfY70) (5:08) Using the scanner class to read integers & strings from the user.  Also a brief introduction to finding & fixing errors & warnings in Eclipse and how to use nextLine() to clear the user input buffer.
+[VIDEO](https://youtu.be/TwDUcFFfY70) (5:08) Using the scanner class to read integers & strings from the user.  Also a brief introduction to finding & fixing errors & warnings in Eclipse and how to use nextLine() to clear the user input buffer.
 
 ## PrintPrintln.java
 
-This program goes over the differences between `System.out.print` and `System.out.println`
+[VIDEO](https://youtu.be/ed4SsdXFWdM) (4:38) This program goes over the differences between `System.out.print` and `System.out.println`
 
