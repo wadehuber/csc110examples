@@ -1,4 +1,5 @@
 # csc110examples
+
 Code examples and videos for CSC110 - Introduction to Computer Science (Java)
 
 This repository contains
