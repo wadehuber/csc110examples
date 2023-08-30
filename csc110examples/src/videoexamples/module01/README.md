@@ -8,10 +8,9 @@ I strongly recommend you clone this GitHub repository and regularly update it.  
 
 [The Parts of a Java Program](https://youtu.be/R_CA3St31ng) (1:56) goes over the boilerplate code that you'll see in almost every Java program.  Note that right now you are not expected to understand it all, but as you become more familiar with Java you will learn more about these features.
 
-
 ## EmptyClass.java
 
-This program is the *simplest* Java program you can have - it is a valid program, but it literally does nothing. However, while it is the "simplest" program, there is still quite a bit going on, which we will discuss in the video. Some of what we talk about will not make any sense to you yet, and that's ok - you will pick up more and more as you gain experience.
+This program is the *simplest* Java program you can have - it is a valid program, but it literally does nothing. However, while it is the "simplest" program, there is still quite a bit going on, most of which we covered in The Parts of a Java Program video above.  
 
 ## HelloWorld.java
 
