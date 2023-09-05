@@ -4,14 +4,16 @@ public class Constants {
 
 	public static void main(String[] args) {
 		
-		final int MAX = 100;
-		final int DAYS_IN_WEEK = 7;
+		final int birthYear = 2004;
+		int age = 19;
 		
-		int num = MAX;
-
-		System.out.println("num = " + num);
-
-		System.out.println("Days = " + (MAX * DAYS_IN_WEEK));
+		System.out.print("I was born in " + birthYear + ". ");
+		System.out.println("I am " + age + " years old.");
+		
+		age = 20;
+		// birthYear = 2000;  // Cannot change a constant variable's value
+		System.out.print("I was born in " + birthYear + ". ");
+		System.out.println("I am " + age + " years old.");
 	}
 
 }

@@ -23,7 +23,7 @@ MoreScanner.java [VIDEO](https://youtu.be/3Chk4qfVBTw) (6:52) goes over the Scan
 
 - CharsAndNums.java [VIDEO](https://youtu.be/ZKiBoStkIww) (5:19): This program goes over how char and int variables are related
 
-- Constants.java: Constants can be declared with `final` and are not allowed to be changed
+- Constants.java [VIDEO](https://youtu.be/mPCuI972gSA) (2:13): Constants can be declared with `final` and are not allowed to be changed
 
 ## Helpful Classes
 
