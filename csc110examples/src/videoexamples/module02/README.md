@@ -12,7 +12,7 @@ MoreScanner.java [VIDEO](https://youtu.be/3Chk4qfVBTw) (6:52) goes over the Scan
 
 ## Strings
 
-- StringConcatenation.java: We can combine strings in Java using the string concatenation operator `+`
+- StringConcatenation.java [VIDEO](https://youtu.be/Aq5P5ylKwbA) (4:24): We can combine strings in Java using the string concatenation operator `+`.  We can also combine strings with the values of variables to print them out.
 
 ## Variables
 
