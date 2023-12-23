@@ -1,6 +1,6 @@
 package labs;
 
-public class Module10Lab {
+public class Module6 {
 	
 	public static void welcome(String name) {
 
@@ -22,10 +22,6 @@ public class Module10Lab {
 		return 0;
 	}
 	
-	public static double arrayAverage(int[] values) {
-		return 0.0;
-	}
-
 	// This method tests your isMultiple method
 	public static void testIsMultiple(int x, int y) {
 		if (isMultiple(x, y)) {
@@ -39,7 +35,6 @@ public class Module10Lab {
 	public static void main(String[] args) {
 		String name = "Leslie Lamport";
 		String title = "Time, Clocks and the Ordering of Events in a Distributed System";
-		int[] numbers = {100, 95, 90, 93, 84};
 		welcome(name);
 		multiPrint("This is a test.", 3);
 		System.out.printf("Pay with bonus: %.2f \n", awardBonus(75000.0, 15));
@@ -47,7 +42,6 @@ public class Module10Lab {
 		testIsMultiple(25, 7);
 		System.out.println(name + " has " + lowercaseCount(name) + " lowercase characters ");
 		System.out.println(title + "\n    has " + lowercaseCount(title) + " lowercase characters ");
-		System.out.println("Average = " + arrayAverage(numbers));
 	}
 
 }
