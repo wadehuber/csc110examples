@@ -1,4 +1,4 @@
-package labs.module16exceptions;
+package labs.exceptions;
 
 public class NullPtrExample {
 
