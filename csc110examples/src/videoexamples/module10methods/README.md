@@ -1,5 +1,9 @@
 # Module 10 - Writing Methods
 
-- MethodsIntro.java: Example of a writing a Java method 
+## MethodsIntro.java
 
-- Methods.java: More examples of writing static methods
+Example of a writing a Java method 
+
+## Methods.java
+
+More examples of writing static methods
