@@ -1,4 +1,4 @@
-# Introduction to Programming
+# Introduction to Programming in Java
 
 The focus on this module is primarily introducing *what programs are* more than actually writing programs. But, it wouldn't be fun to completely skip code in this module, so we will introduce some relatively simple programs.
 

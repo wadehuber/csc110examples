@@ -1,4 +1,4 @@
-package videoexamples.dataexpressions;
+package videoexamples.usingclasses;
 
 import java.util.Random;
 

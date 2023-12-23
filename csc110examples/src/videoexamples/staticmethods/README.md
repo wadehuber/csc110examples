@@ -1,4 +1,4 @@
-# Module 10 - Writing Methods
+# Writing Methods
 
 ## MethodsIntro.java
 

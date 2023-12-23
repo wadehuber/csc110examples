@@ -1,4 +1,4 @@
-# Module 12 - Writing Java Classes
+# Writing Java Classes
 
 [Video - What is a "Driver" class?](https://youtu.be/eIVE-Jho-H0) (5:52)
 

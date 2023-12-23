@@ -1,4 +1,4 @@
-# Module16 - Exceptions
+# Exceptions
 
 - ExceptionExamplejava [Video](https://youtu.be/7suzPlUidbQ) (8:52): Example of using exceptions in Java
 - ExceptionExample2.java [Video](https://youtu.be/XgDj0OBrmsA) (6:21): Example of using exceptions in Java

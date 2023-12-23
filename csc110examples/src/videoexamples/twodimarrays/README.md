@@ -1,4 +1,4 @@
-# Module 8 - More about Arrays
+# Two-Dimensional Arrays
 
 ## TwoDimensionalArrays.java
 

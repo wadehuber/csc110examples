@@ -1,4 +1,4 @@
-# Module14 - Inheritance
+# Inheritance
 
 ## animals
 

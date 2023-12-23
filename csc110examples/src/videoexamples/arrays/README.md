@@ -1,4 +1,4 @@
-# Module 7 - Arrays
+# Arrays
 
 ## WhyArrays.java
 

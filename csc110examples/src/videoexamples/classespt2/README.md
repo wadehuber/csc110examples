@@ -1,4 +1,4 @@
-# Module 13 - More about Writing Java Classes
+# More about Writing Java Classes
 
 ThisReference.java - example of a class where the constructor uses the `this` reference in its constructor
 

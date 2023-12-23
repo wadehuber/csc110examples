@@ -1,4 +1,4 @@
-# Module 5 - Loops
+# Loops
 
 This module will cover some of the different kinds of loops in Java
 

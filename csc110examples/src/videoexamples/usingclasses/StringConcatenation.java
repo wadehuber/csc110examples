@@ -1,4 +1,4 @@
-package videoexamples.dataexpressions;
+package videoexamples.usingclasses;
 
 public class StringConcatenation {
 
@@ -15,7 +15,7 @@ public class StringConcatenation {
 		System.out.println("I like " + pi);
 		System.out.println("I'm taking " + subject + 110);
 		System.out.println("The greatest enemy of knowledge is not ignorance, " +
-		                   "it is the illusion of knowledge. — Stephen Hawking");
+		                   "it is the illusion of knowledge. ï¿½ Stephen Hawking");
 		
 		// Be careful using + with numbers - you can concatenate integers,
 		//   so use () if you want to print the result of the addition!
