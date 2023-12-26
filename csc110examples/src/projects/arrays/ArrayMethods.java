@@ -1,4 +1,4 @@
-package projects.project11arraymethods;
+package projects.arrays;
 
 public class ArrayMethods {
 

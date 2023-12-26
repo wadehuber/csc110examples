@@ -1,6 +1,6 @@
-package projects.project13bank;
+package projects.classes2;
 
-public class Bank13 {
+public class Bank {
 
 	public static void main(String[] args) 
 	{

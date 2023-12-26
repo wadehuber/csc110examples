@@ -1,4 +1,4 @@
-package projects.project2;
+package projects.data;
 
 public class ExamAverage {
 

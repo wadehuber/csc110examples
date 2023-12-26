@@ -1,4 +1,4 @@
-package projects.project7phonebill;
+package projects.arrays;
 
 //Program Name : CellPhoneBillReport
 //Author: Patricia Baker and ??

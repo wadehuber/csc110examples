@@ -1,6 +1,6 @@
-package projects.project12;
+package projects.classes1;
 
-public class Project12Driver {
+public class StockDriver {
 
     public static void main(String[] args) {
     	System.out.println("Project 12 Sample Output for YOUR NAME");

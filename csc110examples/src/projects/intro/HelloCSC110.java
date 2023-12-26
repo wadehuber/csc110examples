@@ -1,6 +1,6 @@
 // Hello, world example
 
-package projects.project1;
+package projects.intro;
 
 public class HelloCSC110 {
 

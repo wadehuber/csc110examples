@@ -1,7 +1,7 @@
-package projects.project14;
+package projects.inheritance;
 
-public class Project14Driver {
-    public static void main(String[] args) {
+public class ElectronicsDriver {
+    public static void ElectronicsDriver(String[] args) {
         // Instantiate a Television object
 
         // Instantiate a Laptop object

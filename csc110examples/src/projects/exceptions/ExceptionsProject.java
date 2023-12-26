@@ -1,4 +1,4 @@
-package projects.project16exceptions;
+package projects.exceptions;
 
 import java.util.Scanner;
 
