@@ -13,7 +13,7 @@ This directory contains example code for CSC110, along with videos for most of t
 - Module 7: [Classes (part 1)](./classespt1) - Introduciton to writing Java classes, using a driver class to test your code, and writing a `tostring()` method
 - Module 8: [Classes (part 2)](./classespt2) - More about classes, including static members and the `this` special reference
 - Module 9: [Arrays](./arrays) - Arrays and using `NumberFormat` objects to format percentages and money
-- Module 10: [2D ARrays](./twodimarrays) - Two-dimensional arrays
+- Module 10: [2D Arrays](./twodimarrays) - Two-dimensional arrays
 - Module 11: [Inheritance](./inheritance) - Inheritance, method overridding, and special references (`this` & `super`)
 - Module 12: [Exceptions](./exceptions) - Introduction to exceptions, exeption propogation
 - Module 13: [File I/O](./fileio) - Working with files in Java
