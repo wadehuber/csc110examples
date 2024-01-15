@@ -13,10 +13,6 @@ public class Module01Lab {
 		
 		// Print "Hello, CSC110", ending with a newline
 
-				
-		// Print your name, favorite book/movie, hobby, & favorite color
-		
-
 		// Print "Effort creates opportunity" inside a box on 3 lines
 
     }
