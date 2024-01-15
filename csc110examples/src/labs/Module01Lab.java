@@ -1,34 +1,24 @@
 package labs;
 
-import java.util.Scanner;
+// Wile E. Coyote
+// CSC110AB Section 12345
+// January 15, 2024
 
 public class Module01Lab {
 
 	public static void main(String[] args) {
 
-        // Print "Hello, World", ending with a newline
-
+		System.out.println("CSC110 Lab 1");
+		System.out.println();
 		
-    	// Using two statements, print "Computer Science"
+        // Print "Hello, CSC110", ending with a newline
 
+				
+        // Print your name, favorite book/movie, hobby, & favorite color
 		
-    	// The code below creates a variable called answer
-    	//  Print the statement "The answer is " followed
-    	//  by the value in answer on a single line.
-	    int answer = 42;
 
-	    
-    	// The code below lets the user input two numbers
-    	//   stored in the variables num1 & num2. Print the
-	    //   two numbers, then print their sum & product.
-        Scanner scnr = new Scanner(System.in);
-	    int num1;
-	    int num2;
-        System.out.println("Enter 2 integers:");
-        num1 = scnr.nextInt();
-        num2 = scnr.nextInt();
-       
-        scnr.close(); // Always close your resources!
+		// Print "Effort creates opportunity" inside a box on 3 lines
+
     }
     
 }
