@@ -7,3 +7,4 @@ This repository contains
 - [Code examples & videos](./csc110examples/src/videoexamples)
 - [Project starter code](./csc110examples/src/projects)
 - [Starter code for select Eclipse labs](./csc110examples/src/labs)
+- [Example code from live classes](./csc110examples/src/classexamples)
