@@ -1,6 +1,6 @@
 package classexamples;
 
-public class Module2Data {
+public class M2DataExpressions {
 
 	public static void main(String[] args) {
 		System.out.print("CSC110 ");
