@@ -6,6 +6,8 @@ MoreScanner.java [VIDEO](https://youtu.be/3Chk4qfVBTw) (6:52) goes over the Scan
 
 ## Strings
 
+- StringExamples.java has some examples of working with `String` objects & string literals and comparing strings
+- MoreStringExamples.java has additional examples of `String` functions available in Java.
 - StringConcatenation.java [VIDEO](https://youtu.be/Aq5P5ylKwbA) (4:24): We can combine strings in Java using the string concatenation operator `+`.  We can also combine strings with the values of variables to print them out.
 
 ### MathAndRandom.java
