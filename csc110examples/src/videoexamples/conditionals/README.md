@@ -27,6 +27,10 @@ In this module (and the next 2) we will cover flow control - how to change what 
 
 [VIDEO](https://youtu.be/_2puxOw8TLM) (3:06) compares an if-else statement with a switch statement
 
+## NestedConditionals.java
+
+This example shows that you can use one conditional inside the code block of another conditional statement
+
 ## SwitchFallThrough.java
 
 [VIDEO](https://youtu.be/T18hcJbCYp4) (3:31) is an example of how fall-through works with switch statements
