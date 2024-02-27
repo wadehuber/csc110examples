@@ -19,27 +19,76 @@ public class M4Conditionals {
 		else {
 			System.out.println("B");
 		}
+		System.out.println();
 
-		if (num1 <= num2) {
+		if (num3 > num2) {
 			System.out.println("A");
 		}
 		else {
 			System.out.println("B");
 		}
+		System.out.println();
 
-		if (str1.compareTo(str2) > 0) {
+		String str4 = new String("Percy");
+		if (str1.equals(str4)) {
 			System.out.println("A");
 		}
 		else {
 			System.out.println("B");
 		}
+		System.out.println();
 
-		if (str3.compareTo(str1) > 0) {
+		if (str1.compareTo(str2) < 0) {
 			System.out.println("A");
 		}
 		else {
 			System.out.println("B");
 		}
+		System.out.println();
+
+		if ("ABCDEFG".compareTo("ABCDABCDEFG") > 0) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("B");
+		}
+		System.out.println();
+
+		if (str2.compareTo(str3) > 0) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("B");
+		}
+		System.out.println();
+		
+		if (num1 < (num2 / 4)) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("B");
+		}
+		System.out.println();
+
+		// Using logical and
+		if ((num2 > num1) && (num2 > num3)) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("B");
+		}
+		System.out.println();
+
+		// Using logical or
+		if ((num2 > num1) || (num2 > num3)) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("B");
+		}
+		System.out.println();
+
+		
 
 	}
 
