@@ -1,6 +1,6 @@
 package labs;
 
-public class Module6 {
+public class Module06 {
 	
 	public static void welcome(String name) {
 
