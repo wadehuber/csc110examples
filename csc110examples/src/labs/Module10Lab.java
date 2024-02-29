@@ -1,6 +1,6 @@
 package labs;
 
-public class Module10 {
+public class Module10Lab {
 	
 	public static double arrayAverage(int[] values) {
 		return 0.0;
