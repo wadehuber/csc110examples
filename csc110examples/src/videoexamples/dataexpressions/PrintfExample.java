@@ -18,7 +18,6 @@ public class PrintfExample {
 		//  %f indicates a double
 		//    %.2f indicates a double rounded to 2 decimal places
 		System.out.printf("%s is %d years old, number=%.2f\n", name, age, number);
-
 		System.out.format("%20s is %10d years old, number=%10.2f\n", name, age, number);
 
 	}
