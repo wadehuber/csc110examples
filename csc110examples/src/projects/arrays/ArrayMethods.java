@@ -16,7 +16,7 @@ public class ArrayMethods {
 
 		System.out.println("\nTesting statistics:");
 		System.out.printf("Min = %.2f\n", findMin(values));
-		System.out.printf("Min = %.2f\n", findMax(values));
+		System.out.printf("Max = %.2f\n", findMax(values));
 
 		System.out.printf("Total = %.2f\n", calculateTotal(values));
 		System.out.printf("Average = %.2f\n", calculateAverage(values));
