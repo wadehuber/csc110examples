@@ -6,25 +6,26 @@ public class ExceptionsProject {
 
 	public static void main(String[] args) {
 
-		int numOfValues = 0;
-		int size = 10;
-		int[] dataArray = new int[size];
 		Scanner scnr = new Scanner(System.in);
 		String tryAgain = "N";
-		
+		int numOfValues = 0;
+		int actualSize = 10;
+	
 		System.out.println("CSC110 Exceptions Project");
 		do {
 
 			System.out.print("How many values do you want to load? ");
 			numOfValues = scnr.nextInt();
+			actualSize = Math.min(numOfValues,  10);
+
+			int[] dataArray = new int[actualSize];
+			
+			// fill the array with 0, 10, 20,30, 40, 50, 60....
+			for(int ii = 0; ii<numOfValues; ii++) {
+				dataArray[ii] = 10 * (ii+1);
+			}
 			
 			resetArray(dataArray);
-				
-			// fill the array with 0, 10, 20,30, 40, 50, 60....
-			for(int index = 0; index < numOfValues; index++)
-			{
-				// COMPLETE AS PART OF PROJECT
-			}
 				
 			System.out.println("Array");
 			System.out.println("-------");
