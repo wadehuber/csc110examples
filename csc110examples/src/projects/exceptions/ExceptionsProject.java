@@ -20,12 +20,13 @@ public class ExceptionsProject {
 
 			int[] dataArray = new int[actualSize];
 			
+			resetArray(dataArray);
+
 			// fill the array with 0, 10, 20,30, 40, 50, 60....
 			for(int ii = 0; ii<numOfValues; ii++) {
 				dataArray[ii] = 10 * (ii+1);
 			}
 			
-			resetArray(dataArray);
 				
 			System.out.println("Array");
 			System.out.println("-------");
