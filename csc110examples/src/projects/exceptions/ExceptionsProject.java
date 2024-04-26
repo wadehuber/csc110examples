@@ -22,7 +22,7 @@ public class ExceptionsProject {
 			
 			resetArray(dataArray);
 
-			// fill the array with 0, 10, 20,30, 40, 50, 60....
+			// fill the array with 10, 20,30, 40, 50, 60....
 			for(int ii = 0; ii<numOfValues; ii++) {
 				dataArray[ii] = 10 * (ii+1);
 			}
@@ -47,9 +47,9 @@ public class ExceptionsProject {
 	}
 	
 	// Display an array in the following format:
-	//    [0]: 0
-	//    [1]: 10
-	//    [2]: 20
+	//    [0]: 10
+	//    [1]: 20
+	//    [2]: 30
 	//    ... continuing until all values are displayed
 	public static void displayArray(int[] someArray) {
 		// COMPLETE AS PART OF PROJECT
