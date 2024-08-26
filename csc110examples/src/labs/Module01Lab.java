@@ -1,8 +1,8 @@
-package labs;
 
-// Wile E. Coyote
-// CSC110AB Section 12345
-// January 15, 2024
+
+// Danaila George
+// CSC110AB Section 28033
+// August 25, 2024
 
 public class Module01Lab {
 
@@ -12,8 +12,10 @@ public class Module01Lab {
 		System.out.println();
 		
 		// Print "Hello, CSC110", ending with a newline
+	
 
 		// Print "Effort creates opportunity" inside a box on 3 lines
+		
 
     }
     
