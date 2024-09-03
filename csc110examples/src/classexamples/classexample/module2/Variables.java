@@ -5,7 +5,7 @@ package classexamples.classexample.module2;
 
 import java.util.Scanner;
 
-public class DataExpressions {
+public class Variables {
 
 	public static void main(String[] args) {
 		System.out.print("CSC110 ");
