@@ -28,7 +28,7 @@ public class Module06Lab {
 			System.out.println(x + " is a multiple of " + y);
 		}
 		else {
-			System.out.println(x + " is a multiple of " + y);
+			System.out.println(x + " is not a multiple of " + y);
 		}
 	}
 
