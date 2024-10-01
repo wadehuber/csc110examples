@@ -11,6 +11,10 @@ In this module (and the next 2) we will cover flow control - how to change what 
 
 [VIDEO](https://youtu.be/BNb5rdziJIc) (4:51) Example of a program that handles a situation with multiple conditions using an if-else structure
 
+## CheckingUserInput.java
+
+[VIDEO](https://youtu.be/ZrHfj_mWffQ) (4:34) Example of using if statements to validate user input
+
 ## CommonMistakes.java
 
 [VIDEO](https://youtu.be/WJvjX3H_4gI) (3:03) Some common mistakes new programmers make and how to correct them

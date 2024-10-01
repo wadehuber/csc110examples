@@ -4,7 +4,7 @@ This module will cover some of the different kinds of loops in Java
 
 ## ForLoop.java
 
-Examples of what you can do with for loops
+[Video](https://youtu.be/DOwAuetlCRE) (4:41) Introduction to for loops
 
 
 ## Review: ControlStructuresReview.java
