@@ -3,7 +3,7 @@ package projects.classes1;
 public class StockDriver {
 
     public static void main(String[] args) {
-    	System.out.println("Project 12 Sample Output for YOUR NAME");
+    	System.out.println("Stock  Class Project Sample Output for YOUR NAME");
 
     	/*
         Stock[] stocks = {new Stock("LittleCorp", "LTLC", 15.73, 15.39, 200),
