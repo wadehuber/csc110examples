@@ -2,7 +2,7 @@ package classexamples;
 
 import java.util.Random;
 
-public class ArrayExamples {
+public class M9ArrayExamples {
 
 	public static void main(String[] args) {
 		Random rand = new Random();
