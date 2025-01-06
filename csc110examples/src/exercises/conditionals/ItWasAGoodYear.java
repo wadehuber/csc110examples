@@ -1,4 +1,4 @@
-package projects.conditionals;
+package exercises.conditionals;
 
 import java.util.Scanner;
 
