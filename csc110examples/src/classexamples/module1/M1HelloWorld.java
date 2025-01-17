@@ -1,4 +1,4 @@
-package classexamples.classexample.module1;
+package classexamples.module1;
 
 public class M1HelloWorld {
 
