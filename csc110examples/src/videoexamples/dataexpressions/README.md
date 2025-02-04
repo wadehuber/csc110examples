@@ -18,3 +18,7 @@ This module will cover primitive types, strings, expressions, and using the Scan
 - CharsAndNums.java [VIDEO](https://youtu.be/ZKiBoStkIww) (5:19): This program goes over how char and int variables are related
 
 - Constants.java [VIDEO](https://youtu.be/mPCuI972gSA) (2:13): Constants can be declared with `final` and are not allowed to be changed
+
+## Expressions
+
+- IntegerDivision.java [VIDEO](https://youtu.be/OBO4z4GkikM) (3:56): This program goes over the division in Java
