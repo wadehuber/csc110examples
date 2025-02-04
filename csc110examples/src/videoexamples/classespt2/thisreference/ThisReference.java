@@ -12,5 +12,17 @@ public class ThisReference {
 		this.age = age;
 		this.score = score;
 	}
+	
+	public ThisReference(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+		score = 0.0;
+	}
 
+	@Override
+	public String toString() {
+		return "ThisReference [name=" + name + ", age=" + age + ", score=" + score + "]";
+	}
+	
 }
