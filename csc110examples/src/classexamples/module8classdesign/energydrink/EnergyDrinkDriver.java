@@ -1,4 +1,4 @@
-package classexamples.module8classdesign;
+package classexamples.module8classdesign.energydrink;
 
 public class EnergyDrinkDriver {
 
