@@ -2,15 +2,21 @@ package classexamples.module12exceptions;
 
 public class InsufficientFundsException extends Exception {
 	
-	private double amount;
+	private double balance;
+	private double withdrawn;
+	
+	public InsufficientFundsException(double balance, double withdrawn) {
+		super(String.format("Insuffient funcs: Cannot withdraw $%.2f", withdrawn));
+		this.balance = balance;
+		this.withdrawn = withdrawn;
+	}
 
-	public InsufficientFundsException(double amount) {
-		super("Insufficient funds: Cannot withdraw $" + amount);
-		this.amount = amount;
+	public double getBalance() {
+		return balance;
+	}
+
+	public double getWithdrawn() {
+		return withdrawn;
 	}
 	
-	public double getAmount() {
-		return amount;
-	}
-
 }

@@ -10,17 +10,19 @@ public class ExceptionDemo {
 		
 		for (double value : values) {
 			System.out.println();
+			System.out.println("Withdraw $" + value);
 			try {
-				System.out.println("Withdraw $" + value);
 				account.withdraw(value);
-				System.out.println("    Bank account: " + account);
 			} catch (IllegalArgumentException e) {
-				// TODO Auto-generated catch block
-				System.out.println("Invalid amount " + e.getMessage());
+				System.out.println(e.getMessage());
 			} catch (InsufficientFundsException e) {
-				System.out.println("Unable to withdraw $" + e.getAmount());
-				System.out.println("Transaction FAILED " + e.getMessage());
+				System.out.println(e.getMessage());
+				System.out.println("Current balance: " + e.getBalance());
 			}
+			finally {
+				System.out.println("Thank you for banking with us!");
+			}
+			System.err.println("    Bank account: " + account);
 		}
 
 	}
