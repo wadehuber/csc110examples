@@ -1,16 +1,30 @@
 package classexamples.module11inheritance;
 
 public class Employee {
-
+	
 	private String name;
 	private int empNo;
-	protected double salary;
+	private static int empCount = 0;
+	private double salary;
 	
-	public Employee(String name, int empNo, double salary) {
+	public Employee(String name, double salary) {
 		super();
 		this.name = name;
-		this.empNo = empNo;
 		this.salary = salary;
+		empCount ++;
+		empNo = empCount + 1000;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmpNo() {
+		return empNo;
 	}
 
 	public double getSalary() {
@@ -21,14 +35,6 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public int getEmpNo() {
-		return empNo;
-	}
-	
 	public double pay() {
 		return salary / 26;  // Pay every 2 weeks
 	}
