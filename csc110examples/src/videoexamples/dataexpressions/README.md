@@ -19,6 +19,8 @@ This module will cover primitive types, strings, expressions, and using the Scan
 
 - Constants.java [VIDEO](https://youtu.be/mPCuI972gSA) (2:13): Constants can be declared with `final` and are not allowed to be changed
 
+- UsingStrings.java [Video](https://youtu.be/UNwqbgPCId4) (2:33): Goes over how to declare string variables and how to get user input using a Scanner to read a string
+
 ## Expressions
 
 - IntegerDivision.java [VIDEO](https://youtu.be/OBO4z4GkikM) (3:56): This program goes over the division in Java
