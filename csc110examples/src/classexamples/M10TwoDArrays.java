@@ -1,4 +1,4 @@
-package classexamples.classexample;
+package classexamples;
 
 public class M10TwoDArrays {
 
