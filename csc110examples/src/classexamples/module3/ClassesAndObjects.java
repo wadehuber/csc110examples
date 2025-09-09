@@ -1,9 +1,8 @@
-package classexamples;
+package classexamples.module3;
 
 import java.util.Random;
-import java.util.Scanner;
 
-public class M3ClassesAndObjects {
+public class ClassesAndObjects {
 
 	public static void main(String[] args) {
 		
@@ -16,7 +15,7 @@ public class M3ClassesAndObjects {
 		System.out.println();
 		
 		System.out.println("Object reference variables");
-		String subject = "Computer Science";  // "Comp..Sci" is a string literal
+		String subject = "Computer Science";  // "Computer Science" is a string literal
 		String movie = new String("Interstellar");  // instantiating a string
 		System.out.println("subject = \"" + subject + "\"");
 		System.out.println("movie = \"" + movie + "\"");
@@ -26,8 +25,7 @@ public class M3ClassesAndObjects {
 							movie.length() + " characters long");
 		System.out.println();
 		
-		// Objects
-		Scanner scan = new Scanner(System.in);
+		// Instantiate an object of the Random class
 		Random rand = new Random();
 		
 		System.out.println("Using a Random object");
