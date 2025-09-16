@@ -1,7 +1,7 @@
 // Class examples for CSC110 Module 2 - Data & Expressions
 // 27-Aug-2024
 
-package classexamples.module2;
+package classexamples.module02variables;
 
 import java.util.Scanner;
 

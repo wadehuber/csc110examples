@@ -1,4 +1,4 @@
-package classexamples.module3;
+package classexamples.module03objects;
 
 import java.util.Random;
 

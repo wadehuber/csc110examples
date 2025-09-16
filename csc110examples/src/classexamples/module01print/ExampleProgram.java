@@ -1,4 +1,4 @@
-package classexamples.module1;
+package classexamples.module01print;
 
 public class ExampleProgram {
 

@@ -1,4 +1,4 @@
-package classexamples.module2;
+package classexamples.module02variables;
 
 public class Expressions {
 	

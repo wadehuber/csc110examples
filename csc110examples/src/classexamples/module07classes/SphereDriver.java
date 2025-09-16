@@ -1,4 +1,4 @@
-package classexamples.module7;
+package classexamples.module07classes;
 
 import java.util.Scanner;
 

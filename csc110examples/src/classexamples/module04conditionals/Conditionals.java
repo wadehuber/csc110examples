@@ -1,4 +1,4 @@
-package classexamples.module4;
+package classexamples.module04conditionals;
 
 public class Conditionals {
 
