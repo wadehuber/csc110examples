@@ -22,6 +22,10 @@ public class StringConcatenation {
 		System.out.println("The number " + num + " + " + 17 + " = " + num+17);
 		System.out.println("The number " + num + " + " + 17 + " = " + (num+17));
 		
+		// 
+		System.out.println('a' + 'B');
+		System.out.println("" + 'a' + 'B');
+		
 	}
 
 }
