@@ -1,4 +1,4 @@
-package classexamples.M9arrays;
+package classexamples.module09;
 
 import java.util.Random;
 
