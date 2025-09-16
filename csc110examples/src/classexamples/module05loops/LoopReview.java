@@ -1,6 +1,6 @@
-package classexamples;
+package classexamples.module05loops;
 
-public class M5LoopReview {
+public class LoopReview {
 
 	public static void main(String[] args) {
 		

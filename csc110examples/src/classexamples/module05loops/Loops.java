@@ -1,8 +1,8 @@
-package classexamples;
+package classexamples.module05loops;
 
 import java.util.Scanner;
 
-public class M5Loops {
+public class Loops {
 
 	public static void main(String[] args) {
 		
