@@ -5,7 +5,7 @@ Code examples and videos for CSC110 - Introduction to Computer Science (Java)
 This repository contains
 
 - [Code examples & videos](./csc110examples/src/videoexamples) listed by module
-- [In-class code](./src/classexamples)
+- [In-class code](./csc110examples/src/classexamples)
 - [Project starter code](./csc110examples/src/projects)
 - [Starter code for select Eclipse labs](./csc110examples/src/labs)
 
