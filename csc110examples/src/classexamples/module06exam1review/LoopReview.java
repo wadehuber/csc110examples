@@ -1,4 +1,4 @@
-package classexamples.module05loops;
+package classexamples.module06exam1review;
 
 public class LoopReview {
 
