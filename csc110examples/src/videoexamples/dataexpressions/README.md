@@ -24,3 +24,7 @@ This module will cover primitive types, strings, expressions, and using the Scan
 ## Expressions
 
 - IntegerDivision.java [VIDEO](https://youtu.be/OBO4z4GkikM) (3:56): This program goes over the division in Java
+
+## Review of how scanner works
+
+- ScannerInput.java [Video]() (): Having your programs get input from the user is a 
