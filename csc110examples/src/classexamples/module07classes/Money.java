@@ -2,14 +2,21 @@ package classexamples.module07classes;
 
 public class Money {
 	
-	int amount;   // this is in "cents", not dollars
+	int amount;   // this is "cents", not "dollars"
 	String currency;
 	
-	// Constructor 
-	public Money(int a, String c) {
+	public Money(int amount, String currency) {
 		super();
-		amount = a;
-		currency = c;
+		this.amount = amount;
+		this.currency = currency;
+	}
+
+	public int getAmount() {
+		return amount;
+	}
+
+	public String getCurrency() {
+		return currency;
 	}
 
 	@Override
@@ -18,9 +25,10 @@ public class Money {
 			return "Money [amount=" + amount/100 + ", currency=" + currency + "]";
 		}
 		else {
-			return "Money [amount=" + amount + ", currency=Cents" + "]";
+			return "Money [amount=" + amount + ", currency=" + currency + "]";
 		}
-
 	}
 	
+	
+
 }

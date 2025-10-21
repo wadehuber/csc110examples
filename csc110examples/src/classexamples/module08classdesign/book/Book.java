@@ -1,4 +1,4 @@
-package classexamples.module8classdesign.book;
+package classexamples.module08classdesign.book;
 
 public class Book {
 	
@@ -21,7 +21,7 @@ public class Book {
 	public void read() {
 		System.out.println("Reading " + title);
 	}
-
+	
 	// Method to get the book information
 	public void printInfo() {
 		System.out.println("Title: " + title);
@@ -30,9 +30,19 @@ public class Book {
 		System.out.println("Pages: " + pages);
 	}
 
+	public String getTitle() {
+		return title;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
 	@Override
 	public String toString() {
 		return title + " by " + author;
 	}
+
+	
 
 }
