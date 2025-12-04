@@ -7,7 +7,7 @@ public class Payroll {
 		Employee emp1 = new Employee("Rachel Washington", 80000);
 		Volunteer emp2 = new Volunteer("Margaret Simpson");
 		HourlyEmployee emp3 = new HourlyEmployee("Kenny Southpark", 16);
-		emp3.setHoursWorked(20);
+		emp3.addHoursWorked(20);
 		emp3.addHoursWorked(20);
 		
 		
@@ -27,7 +27,7 @@ public class Payroll {
 		System.out.println();
 		System.out.println("Company payroll:");
 		HourlyEmployee emp4 = new HourlyEmployee("Anne Elliot", 22);
-		emp4.setHoursWorked(32);
+		emp4.addHoursWorked(32);
 
 		Employee[] company = {
 				emp1, 

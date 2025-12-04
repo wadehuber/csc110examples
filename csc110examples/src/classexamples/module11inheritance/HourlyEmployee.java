@@ -19,8 +19,8 @@ public class HourlyEmployee extends Employee {
 		return hoursWorked;
 	}
 
-	public void setHoursWorked(int hoursWorked) {
-		this.hoursWorked = hoursWorked;
+	public void addHoursWorked(int hoursWorked) {
+		this.hoursWorked += hoursWorked;
 	}
 
 	@Override
