@@ -9,32 +9,30 @@ public class MultiDimensionalArrays {
 		
 		// Declare & initialize 2D integer array 4 rows and 3 columns
 		int[][] nums = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}, {9, 10, 11}};
-	
+		
 		// Print the array
-		System.out.println("nums array:");
-		for (int row=0;row<nums.length;row++) {
-			for (int col=0;col<nums[row].length;col++) {
-				System.out.printf("%4d",nums[row][col]);
+		System.out.println("nums array: ");
+		for(int row=0; row < nums.length; row++) {
+			for(int col=0; col < nums[row].length; col++) {
+				System.out.printf("%4d", nums[row][col]);
 			}
-			System.out.println();  // Go to the next line when done printing row
+			System.out.println();
 		}
 		
-		
-		// Declare 2D integer array 7 rows and 15 columns
+		// Declare a 2D integer array with 7 rows and 15 columns
 		int[][] vals = new int[7][15];
 		
-		// Initialize this array
-		for (int row=0;row<vals.length;row++) {
-			for (int col=0;col<vals[row].length;col++) {
+		// Initialize this array;
+		for(int row=0; row < vals.length; row++) {
+			for(int col=0; col < vals[row].length; col++) {
 				vals[row][col] = rand.nextInt(100);
 			}
-		}
-
+		}	
+			
 		// Print the array
 		System.out.println();
-		System.out.println("vals:");
+		System.out.println("vals array:");
 		printArray(vals);
-		
 		
 		// Ragged array
 		int[][] raggedArray1 = new int[5][];
@@ -52,8 +50,14 @@ public class MultiDimensionalArrays {
 		raggedArray1[3] = a3;
 		raggedArray1[4] = a4;
 		
-		System.out.println("\nraggedArray1:");
+		System.out.println();
+		System.out.println("ragged array #1:");
 		printArray(raggedArray1);
+
+		
+		raggedArray1[1][2] = -1;
+		raggedArray1[3][4] = -2;
+		// invalid location: raggedArray1[2][2] = -3;
 		
 		int raggedArray2[][] = {
 	            {1, 2, 3, 4},
@@ -62,15 +66,18 @@ public class MultiDimensionalArrays {
 		};
 		System.out.println("\nraggedArray2:");
 		printArray(raggedArray2);
-	}
+
 		
+	}
+	
 	public static void printArray(int[][] arr) {
-		for (int row=0;row<arr.length;row++) {
-			for (int col=0;col<arr[row].length;col++) {
-				System.out.printf("%4d",arr[row][col]);
+		for(int row=0; row < arr.length; row++) {
+			for(int col=0; col < arr[row].length; col++) {
+				System.out.printf("%4d", arr[row][col]);
 			}
-		System.out.println();
+			System.out.println();
 		}
+
 	}
 
 }

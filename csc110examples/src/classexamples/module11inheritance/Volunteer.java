@@ -4,12 +4,11 @@ public class Volunteer extends Employee {
 
 	public Volunteer(String name) {
 		super(name, 0);
-		
-	}
-	
-	@Override
-	public String toString() {
-		return "Volunteer [name=" + getName() + ", empNo=" + getEmpNo() + "]";
 	}
 
+	@Override
+	public String toString() {
+		return "Volunteer [Name=" + getName() + ", Employee #" + getEmpNo() + "]";
+	}
+	
 }

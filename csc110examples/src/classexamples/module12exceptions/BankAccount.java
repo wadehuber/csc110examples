@@ -23,7 +23,7 @@ public class BankAccount {
 		balance += amount;
 	}
 
-	public void withdraw(double amount) throws InsufficientFundsException {
+	public void withdraw(double amount) throws InsufficientFundsException{
 		if (amount <= 0) {
 			throw new IllegalArgumentException("Withdrawal must be greater than $0.00");
 		}

@@ -14,15 +14,15 @@ public class ExceptionDemo {
 			try {
 				account.withdraw(value);
 			} catch (IllegalArgumentException e) {
-				System.out.println(e.getMessage());
+				System.err.println(e.getMessage());
 			} catch (InsufficientFundsException e) {
 				System.out.println(e.getMessage());
-				System.out.println("Current balance: " + e.getBalance());
+				System.out.println("   Current balance: " + e.getBalance());
 			}
 			finally {
 				System.out.println("Thank you for banking with us!");
 			}
-			System.err.println("    Bank account: " + account);
+			System.out.println("    Bank account: " + account);
 		}
 
 	}
