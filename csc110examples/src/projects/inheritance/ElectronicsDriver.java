@@ -1,7 +1,7 @@
 package projects.inheritance;
 
 public class ElectronicsDriver {
-    public static void ElectronicsDriver(String[] args) {
+    public static void main(String[] args) {
         // Instantiate a Television object
 
         // Instantiate a Laptop object

@@ -19,4 +19,10 @@ public class Sphere {
         return 4 * Math.PI * Math.pow(radius, 2);
     }
 
+	@Override
+	public String toString() {
+		return "Sphere [radius=" + getRadius() + ", volume=" + getVolume()
+				+ ", surface area=" + getSurfaceArea() + "]";
+	}
+
 }

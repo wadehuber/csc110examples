@@ -8,14 +8,6 @@ public class HourlyEmployee extends Employee {
 		super(name, salary);
 		this.hoursWorked = 0;
 	}
-
-	public int getHoursWorked() {
-		return hoursWorked;
-	}
-
-	public void setHoursWorked(int hoursWorked) {
-		this.hoursWorked = hoursWorked;
-	}
 	
 	public double pay() {
 		double pay = getSalary() * hoursWorked;
@@ -23,10 +15,16 @@ public class HourlyEmployee extends Employee {
 		return pay;
 	}
 
+	public int getHoursWorked() {
+		return hoursWorked;
+	}
+
+	public void addHoursWorked(int hoursWorked) {
+		this.hoursWorked += hoursWorked;
+	}
+
 	@Override
 	public String toString() {
 		return "HourlyEmployee [" + super.toString() + " hoursWorked=" + hoursWorked + "]";
 	}
-
-	
 }
