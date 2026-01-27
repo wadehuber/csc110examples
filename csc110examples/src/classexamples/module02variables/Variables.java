@@ -11,7 +11,8 @@ public class Variables {
 		System.out.print("CSC110 ");
 		System.out.println("Module 2");
 		
-		System.out.println("Pulp" + " " + "Fiction");   // String concatenation
+		//String concatenation
+		System.out.println("Chandler" + "-" + "Gilbert");
 		
 		// \n : newline
 		// \t : tab
@@ -21,79 +22,45 @@ public class Variables {
 				+ "\tknowledge. - Stephen Hawking");
 		//System.out.println(""To be, or not to be"");
 		System.out.println("\"To be, or not to be\"");
-
 		
 		// Be careful with editors that have smart quotes!
 		// Syntax error on token "Invalid Character", @ expected
-		// System.out.println(“This is text copied from google docs”);
-		
+		// System.out.println(“This is text copied from Google docs”);
+
 		// Variables
-		int value1;  // declare a variable (with a bad name!)
-		int value2 = 5;  // declare & initialize a variable
+		int value1;      // Declare a variable (with a bad name!)
+		int value2 = 5;  // Declare & initialize a variable
 		
-		value1 = 2;   // set a variable's value
+		value1 = 2;      //  Set a variable's value
 		
 		System.out.println("value1 = " + value1);
 		System.out.println("value2 = " + value2);
-
+		
 		// Be careful with + : sometimes addition, sometimes concatenation!
-		System.out.println("\"value1+value2\" = " + value1 + value2);
-		System.out.println("(value1+value2) = " + (value1 + value2));
+		System.out.println("\"value1 + value1\" = " + value1 + value2);
+		System.out.println("\"(value1 + value1)\" = " + (value1 + value2));
 
-		value2 = 13;
-		System.out.println("value1 = " + value1);
-		System.out.println("value2 = " + value2);
-		
-		// Primitive data types
+		// Primitive data type
 		int number = 10;
-		long bigNumber = 12345677890L; // need L at the end to indicate long literal
-		double realNumber = 3.14159;
-		boolean decision = true;
-		char letter = 'A';
-
+		long bigNumber = 1234567890L;  // L indicates this is a long literal 
+		double realNumber = 3.14159;   // floating-point number
+		boolean decision = true;       // true or false
+		char letter = 'A';             // single character in single quotes
+		
 		System.out.println("\nPrimitive types");
 		System.out.println("\tint number = " + number);
 		System.out.println("\tlong bigNumber = " + bigNumber);
 		System.out.println("\tdouble realNumber = " + realNumber);
 		System.out.println("\tboolean decision = " + decision);
 		System.out.println("\tchar letter = " + letter);
-
+		
+		// char is a numeric type
 		letter = 'A' + 1;
-		System.out.println("\tchar letter = " + letter);
+		System.out.println('A' + 1);
+		System.out.println(letter);
+		letter = 'A' + '1';
+		System.out.println(letter);
 
-		System.out.println("\nExpressions:");
-		int num;
-		num = 3 + 4;
-		System.out.println("\tExample 1: " + num);
-		System.out.println("\tExample 2: " + 3+4);    // concatenation!
-		System.out.println("\tExample 3: " + (3+4));    // addition!
-		System.out.println("\tExample 2: " + (13/4));    // integer division!
-		System.out.println("\tExample 2: " + (13/4.0));    // integer division!
-		
-		// Constants
-		System.out.println("\nConstants:");
-		final int MAX_NUMBER = 4;
-		System.out.println("\tMAX_NUMBER = " + MAX_NUMBER);
-		//MAX_NUMBER = 10;  // Not allowed = MAX_NUMBER is a constant (final)
-		
-		System.out.println("\nShortcuts:");
-		System.out.println("\tvalue1 = " + value1);
-		System.out.println("\tvalue2 = " + value2);
-		value1 = value1 + MAX_NUMBER;
-		++value2;
-		System.out.println("\tvalue1 = " + value1);
-		System.out.println("\tvalue2 = " + value2);
-		value1 += MAX_NUMBER;
-		value2++;
-		System.out.println("\tvalue1 = " + value1);
-		System.out.println("\tvalue2 = " + value2);
-
-		// Reading input from the user
-		Scanner scan = new Scanner(System.in);
-		System.out.println("\nEnter a number: ");
-		
-		int user = scan.nextInt();
-		System.out.println("You entered a " + user);
 	}
 
 }
