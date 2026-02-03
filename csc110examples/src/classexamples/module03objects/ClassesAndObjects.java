@@ -16,18 +16,16 @@ public class ClassesAndObjects {
 		
 		System.out.println("Object reference variables");
 		String subject = "Computer Science";  // "Computer Science" is a string literal
-		String movie = new String("Interstellar");  // instantiating a string
+		String movie = new String("Interstellar");  // Instantiate a string
 		System.out.println("subject = \"" + subject + "\"");
 		System.out.println("movie = \"" + movie + "\"");
-
-		// Methods
-		System.out.println("The string '" + movie + "' is " + 
-							movie.length() + " characters long");
-		System.out.println();
 		
-		// Instantiate an object of the Random class
+		// Object methods
+		System.out.println("The string \"" + movie + "\" is " +
+		                    movie.length() + " characters long");
+		
+		// The Random class
 		Random rand = new Random();
-		
 		System.out.println("Using a Random object");
 		System.out.println("Random integer: " + rand.nextInt());
 		System.out.println("Random integer (0-9): " + (rand.nextInt(10)));
@@ -35,11 +33,13 @@ public class ClassesAndObjects {
 		System.out.println("Random double: " + rand.nextDouble());
 		System.out.println("Random long: " + rand.nextLong());
 		System.out.println();
-		
+	
 		// Static methods in Math
 		System.out.println("Using static methods from the Math class");
 		System.out.println("PI = " + Math.PI);
+		System.out.println("cos(pi) = " + Math.cos(Math.PI));
 		System.out.println("sin(pi) = " + Math.sin(Math.PI));
+		System.out.println("sin(45 deg) = " + Math.sin(Math.toRadians(45)));
 		System.out.println("square root of 25 = " + Math.sqrt(25));
 		System.out.println("square root of 42 = " + Math.sqrt(42));
 		System.out.println("2 raised to the power of 8 = "+ Math.pow(2,  8));
