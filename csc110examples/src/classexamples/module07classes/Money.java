@@ -1,8 +1,8 @@
 package classexamples.module07classes;
 
 public class Money {
-	
-	int amount;   // this is "cents", not "dollars"
+
+	int amount;
 	String currency;
 	
 	public Money(int amount, String currency) {
@@ -21,14 +21,7 @@ public class Money {
 
 	@Override
 	public String toString() {
-		if (amount >= 100) {
-			return "Money [amount=" + amount/100 + ", currency=" + currency + "]";
-		}
-		else {
-			return "Money [amount=" + amount + ", currency=" + currency + "]";
-		}
+		return "Money [amount=" + amount + ", currency=" + currency + "]";
 	}
 	
-	
-
 }
