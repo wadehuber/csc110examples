@@ -1,33 +1,29 @@
 package classexamples.module08classdesign.book;
 
-public class Book {
+public class Novel {
 	
-	// Attributes
-	String title;
-	String author;
-	String genre;
-	int pages;
+	private String title;
+	private String author;
+	private String genre;
+	private int date;
 	
-	// Constructor
-	public Book(String title, String author, String genre, int pages) {
+	public Novel(String title, String author, String genre, int date) {
 		super();
 		this.title = title;
 		this.author = author;
 		this.genre = genre;
-		this.pages = pages;
+		this.date = date;
 	}
-	
-	// Method to read the book
-	public void read() {
-		System.out.println("Reading " + title);
-	}
-	
-	// Method to get the book information
+
 	public void printInfo() {
 		System.out.println("Title: " + title);
 		System.out.println("Author: " + author);
 		System.out.println("Genre: " + genre);
-		System.out.println("Pages: " + pages);
+		System.out.println("Date: " + date);
+	}
+
+	public void read() {
+		System.out.println("Reading " + this);
 	}
 
 	public String getTitle() {
@@ -36,6 +32,14 @@ public class Book {
 
 	public String getAuthor() {
 		return author;
+	}
+
+	public String getGenre() {
+		return genre;
+	}
+
+	public int getDate() {
+		return date;
 	}
 
 	@Override

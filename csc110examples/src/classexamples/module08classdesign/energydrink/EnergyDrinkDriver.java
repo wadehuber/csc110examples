@@ -9,7 +9,7 @@ public class EnergyDrinkDriver {
 		
 		System.out.println("Drink1: " + drink1);
 		System.out.println("Drink2: " + drink2);
-		
+	
 	}
 
 }
