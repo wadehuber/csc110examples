@@ -23,8 +23,8 @@ public class BankAccount {
 		balance += amount;
 	}
 
-	public void withdraw(double amount) throws InsufficientFundsException{
-		if (amount <= 0) {
+	public void withdraw(double amount) throws InsufficientFundsException {
+		if (amount <=0 ) {
 			throw new IllegalArgumentException("Withdrawal must be greater than $0.00");
 		}
 		if (amount > balance) {
@@ -35,7 +35,7 @@ public class BankAccount {
 
 	@Override
 	public String toString() {
-		return "BankAccount [balance=" + balance + ", accountNumber=" + accountNumber + "]";
+		return "acct#=" + accountNumber + "  [balance=" + balance + "]";
 	}
 	
 	
