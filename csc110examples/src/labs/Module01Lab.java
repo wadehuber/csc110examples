@@ -11,7 +11,7 @@ public class Module01Lab {
 		System.out.println("CSC110 Lab 1");
 		System.out.println();
 		
-		System.out.println("CSC110 Lab 1");
+		System.out.println("Hello CSC110");
 
 		System.out.println("------------------");
 		System.out.println("|     Effort     |");
