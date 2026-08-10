@@ -4,9 +4,10 @@ public class Employee {
 	
 	private String name;
 	private int empNo;
-	private static int empCount = 0;
 	private double salary;
-	
+
+	private static int empCount = 0;
+
 	public Employee(String name, double salary) {
 		super();
 		this.name = name;

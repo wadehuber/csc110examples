@@ -27,7 +27,7 @@ public class ExceptionProp {
 			int x = 10 / div;
 		}
 		catch (InputMismatchException e) {
-			System.out.println("FUNCTION3: Invalid input. Do better!");
+			System.err.println("FUNCTION3: Invalid input. Do better!");
 		}
 		finally {
 			System.out.println("            FUNCTION3: Finally block closes the Scanner");

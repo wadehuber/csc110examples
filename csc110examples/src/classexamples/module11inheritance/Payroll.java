@@ -10,7 +10,7 @@ public class Payroll {
 		emp3.addHoursWorked(20);
 		emp3.addHoursWorked(20);
 		
-		
+		System.out.println("Current payroll:");
 		System.out.print(emp1 + " paid $");
 		System.out.printf("%.2f", + emp1.pay());
 		System.out.println();
@@ -38,16 +38,11 @@ public class Payroll {
 				new Volunteer("Lady Russell"),
 		};
 		
-
 		for (Employee e : company) {
 			System.out.print("   " + e + " paid $");
 			System.out.printf("%.2f", + e.pay());
 			System.out.println();
 		}
-	
-		
-		
-		
 	}
 
 }
