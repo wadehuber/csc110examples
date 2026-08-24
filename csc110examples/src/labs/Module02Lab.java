@@ -8,9 +8,15 @@ public class Module02Lab {
 		String scifi = "Science";
 
 		// Display the string "Computer Science" two ways
+		System.out.println("Computer");
+		System.out.println("Science");
 
 		// Write code that reads two integers num1 & num2 then prints their sum &
 		// product
+		int num1 = 10;
+		int num2 = 5;
+
+		double sum = num1 + num2;
 
 		System.out.print("Enter 2 integers: ");
 
