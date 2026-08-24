@@ -1,8 +1,8 @@
 package labs;
 
-// Wile E. Coyote
-// CSC110AB Section 12345
-// January 15, 2024
+// Austin Sullivan
+// CSC110AB Section 14540
+// May 29, 2026
 
 public class Module01Lab {
 
@@ -11,10 +11,14 @@ public class Module01Lab {
 		System.out.println("CSC110 Lab 1");
 		System.out.println();
 		
-		// Print "Hello, CSC110", ending with a newline
+		System.out.println("CSC110 Lab 1");
 
-		// Print "Effort creates opportunity" inside a box on 3 lines
-
+		System.out.println("------------------");
+		System.out.println("|     Effort     |");
+		System.out.println("|     Creates    |");
+		System.out.println("| 	Opportunity  |");
+		System.out.println("------------------");
     }
     
 }
+ 
