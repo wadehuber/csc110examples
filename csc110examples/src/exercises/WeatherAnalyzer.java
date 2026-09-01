@@ -1,4 +1,4 @@
-package labs.weather;
+package exercises;
 
 public class WeatherAnalyzer {
 	// Implement your static methods here
