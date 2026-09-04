@@ -5,7 +5,7 @@ This directory contains example code for CSC110, along with videos for most of t
 ## Contents
 
 - Module 1: [Introduction to Java](./introtojava) - Introduction, including the parts of a Java program, writing output to the console, and getting input fromthe user
-- Module 2: [Data & Expressions](./dataexpresions) - Working with expressions, variables, and some helpful Java classes, specifically `Math` and `Random`, and examples of formatting output - particularyly useful for floating point numbers
+- Module 2: [Data & Expressions](./dataexpressions) - Working with expressions, variables, and some helpful Java classes, specifically `Math` and `Random`, and examples of formatting output - particularyly useful for floating point numbers
 - Module 3: [Using Classes & Objects](./usingclasses) - Working with expressions, variables, and some helpful Java classes (specifically `Math` and `Random`, and examples of formatting output - particularyly useful for floating point number
 - Module 4: [Conditional Expressions](./conditionals) - Conditional structures part 1: `if`, `if-else` and `switch`, comparing strings using the `equals()` method
 - Module 5: [Loops](./loops) - Loops - `for`, `while`, & `do-while` loops, nested loops, infinite loops, and using sentinel values, looping through strings, common mistakes when using loops
