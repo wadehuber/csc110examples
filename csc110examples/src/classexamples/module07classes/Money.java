@@ -1,25 +1,26 @@
-
 package classexamples.module07classes;
 
 public class Money {
-    private int amount;
-    private String currency;
+	
+	private int amount;
+	private String currency;
+	
+	public Money(int amount, String currency) {
+		this.amount = amount;
+		this.currency = currency;
+	}
 
-    public Money(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
-    }
+	public int getAmount() {
+		return amount;
+	}
 
-    public int getAmount() {
-        return amount;
-    }
+	public String getCurrency() {
+		return currency;
+	}
 
-    public String getCurrency() {
-        return currency;
-    }
+	@Override
+	public String toString() {
+		return amount + " " + currency;
+	}
 
-    @Override
-    public String toString() {
-        return amount + " " + currency;
-    }
 }
