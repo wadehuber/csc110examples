@@ -73,9 +73,8 @@ public class M9ArrayExamples {
 		int[] values = { 912, -438, 157, -764, 305, -221, 689, -990, 472, -56 };
 		// values = {1, 2, 3, 4}; // Can only initialize during declaration
 		char[] letterGrades = { 'A', 'B', 'C', 'D', 'F', 'Z' };
-		String[] names = { "Mason", "Elara", "Bryce", "Kiera", 
-				           "Soren", "Lila", "Dante", "Nina" };
-		
+		String[] names = { "Mason", "Elara", "Bryce", "Kiera", "Soren", "Lila", "Dante", "Nina" };
+
 		System.out.println();
 		System.out.println("Printing an array directly:");
 		System.out.println("    nums : " + nums);
@@ -83,58 +82,63 @@ public class M9ArrayExamples {
 		System.out.println("  grades : " + letterGrades);
 		System.out.println("   names : " + names);
 		System.out.println();
-		
+
 		// Print an array with a loop
 		System.out.println("Names: ");
-		for(int ii=0; ii<names.length; ii++) {
+		for (int ii = 0; ii < names.length; ii++) {
 			System.out.print(" " + names[ii]);
 		}
 		System.out.println();
-		
+
 		// Print an array with a for-each loop
 		System.out.println("Grades: ");
 		for (char c : letterGrades) {
 			System.out.print(" " + c);
 		}
 		System.out.println();
-		
+
 		System.out.println();
 		System.out.println("Average values: ");
 		System.out.printf("  values: %.2f\n", calculateAverage(values));
 		System.out.printf("    nums: %.2f\n", calculateAverage(nums));
 		System.out.println();
-		
-		printGradebook(names, letterGrades);
+
+		// Randomly assign a weapon type to each character.
+		// The same weapon type may be assigned multiple times.
+		String[] characters = { "Warrior", "Wizard", "Rogue", "Paladin", "Archer" };
+		String[] weapons = { "Sword", "Bow", "Staff" };
+
+		for (int i = 0; i < characters.length; i++) {
+			// Select a random valid index into the weapons array
+			int weaponIndex = rand.nextInt(weapons.length);
+
+			System.out.println(characters[i] + " gets a " + weapons[weaponIndex]);
+		}
+
+		System.out.println();
+		// Assign students to shifts by cycling through the shifts array.
+		String[] students = { "Alice", "Bob", "Charlie", "Diana", "Ethan", "Frank", "Grace" };
+		String[] shifts = { "Morning", "Afternoon", "Evening" };
+
+		// Iterate through students. Assign a shift based on the current index
+		for (int i = 0; i < students.length; i++) {
+			// Modulo wraps the shift index back to 0 when needed
+			int shiftIndex = i % shifts.length;
+
+			System.out.println(students[i] + " works the " + shifts[shiftIndex] + " shift.");
+		}
 
 	}
-	
+
 	public static double calculateAverage(int[] values) {
 		int sum = 0;
 		double count = values.length;
-		
+
 		for (int num : values) {
 			sum += num;
 		}
-		
+
 		return sum / count;
 	}
-	
-	public static void printGradebook(String[] students, char[] grades) {
-		Random rand = new Random();
-		// Gradebook associating two arrays of different sizes
-		for (int ii=0; ii<students.length; ii++ ) {
-			// Option 1: map indexes using modulo
-			int gradeIndex = ii % grades.length;
-
-			// Option 2: randomly choose cells in the smaller array
-			gradeIndex = rand.nextInt(grades.length);
-
-			System.out.println("  " + ii + ": " + students[ii] + 
-					"'s grade is " + grades[gradeIndex]);
-		}
-		
-		
-	}
-	
 
 }
